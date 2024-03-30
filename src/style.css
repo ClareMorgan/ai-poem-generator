@@ -1,0 +1,79 @@
+body {
+  background: #dcd6f7;
+  color: #424874;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 88px;
+  line-height: 1.5;
+  font-family: "Great Vibes", cursive;
+}
+form {
+  padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
+  background: #f4eeff;
+  border-radius: 6px;
+}
+.search-input {
+  padding: 10px;
+  border: 1px solid #a6b1e1;
+  width: 80%;
+  font-size: 18px;
+  border-radius: 15px;
+  line-height: 20px;
+  background: #dcd6f7;
+  color: #424874;
+  font-family: "Libre Baskerville", serif;
+}
+::placeholder {
+  color: #424874;
+}
+.submit-button {
+  margin-left: 10px;
+  background: #a6b1e1;
+  color: #f4eeff;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 18px;
+  font-family: "Libre Baskerville", serif;
+  transition: all 200ms ease;
+}
+.submit-button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 6px 6px rgb(255, 255, 255);
+}
+.poem {
+  font-size: 20px;
+  margin-bottom: 30px;
+  background: #f4eeff;
+  border-radius: 6px;
+  padding: 20px;
+  line-height: 2;
+  border-left: 4px solid #a6b1e1;
+  font-family: "Libre Baskerville", serif;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Libre Baskerville", serif;
+  font-size: 18px;
+}
+a {
+  color: #5e7266;
+  text-decoration: none;
+  transition: all 200ms ease;
+  opacity: 0.7;
+}
+a:hover {
+  opacity: 1;
+}

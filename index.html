@@ -3,47 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate poem" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        And here
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/ClareMorgan" target="_blank">
-        Clare Morgan
-      </a>
-      and is open-sourced on
-      <a
-        href="https://github.com/ClareMorgan/ai-poem-generator"
-        target="_blank"
-      >
-        GitHub
-      </a>
-      and hosted on
-      <a href="https://poemgenerator-claremorgan.netlify.app" target="_blank">
-        Netlify
-      </a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic..."
+            autofocus
+            required
+            autocomplete="off"
+            class="search-input"
+          />
+          <input type="submit" value="Generate poem" class="submit-button" />
+        </form>
+
+        <div class="poem">
+          The poem will go here
+          <br />
+          And here
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/ClareMorgan" target="_blank">
+          Clare Morgan
+        </a>
+        and is open-sourced on
+        <a
+          href="https://github.com/ClareMorgan/ai-poem-generator"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        and hosted on
+        <a href="https://poemgenerator-claremorgan.netlify.app" target="_blank">
+          Netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
