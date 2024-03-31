@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -18,7 +19,7 @@
         <h1>Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="generator-form">
           <input
             type="text"
             placeholder="Enter a topic..."
@@ -30,11 +31,7 @@
           <input type="submit" value="Generate poem" class="submit-button" />
         </form>
 
-        <div class="poem">
-          The poem will go here
-          <br />
-          And here
-        </div>
+        <div id="poem" class="poem"></div>
       </main>
 
       <footer>
