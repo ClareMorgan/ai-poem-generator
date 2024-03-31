@@ -9,7 +9,7 @@ body {
 header {
   margin-bottom: 30px;
 }
-h1 {
+.heading {
   text-align: center;
   font-weight: 400;
   font-size: 88px;
@@ -58,9 +58,12 @@ form {
   background: #f4eeff;
   border-radius: 6px;
   padding: 20px;
-  line-height: 2;
+  line-height: 1.5;
   border-left: 4px solid #a6b1e1;
   font-family: "Libre Baskerville", serif;
+}
+.poem em {
+  color: #5e7266;
 }
 footer {
   text-align: center;
