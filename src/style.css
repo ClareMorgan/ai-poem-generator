@@ -116,3 +116,11 @@ a:hover {
     opacity: 1;
   }
 }
+@media (max-width: 576px) {
+  .container {
+    margin: 80px auto;
+  }
+  .heading {
+    line-height: 0.9;
+  }
+}
