@@ -50,6 +50,7 @@ a:hover {
   opacity: 0.8;
   color: #e8f0fe;
   font-size: 18px;
+  font-family: "Libre Baskerville", serif;
 }
 .search-input {
   padding: 10px;
